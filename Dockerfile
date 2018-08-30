@@ -1,7 +1,7 @@
 # This tag use ubuntu 14.04
 FROM redis:alpine
 
-MAINTAINER brucelv <brucelv@dfocuspace.com>
+MAINTAINER stulife <stulife>
 
 # Some Environment Variablesss  
 ENV HOME /root
