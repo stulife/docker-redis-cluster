@@ -1,7 +1,7 @@
 version: '2'
 services:
   redis-cluster:
-    image: "dfoucs-redis-cluster"
+    image: "stulife-redis-cluster"
     build:
       context: .
     hostname: server
