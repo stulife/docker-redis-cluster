@@ -1,0 +1,9 @@
+version: '2'
+services:
+  redis-cluster:
+    image: "dfoucs-redis-cluster"
+    build:
+      context: .
+    hostname: server
+    ports:
+      - '7000-7005:7000-7005'
